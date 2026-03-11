@@ -9,7 +9,11 @@ from news_agent import NewsAgent
 
 
 
-st.set_page_config(page_title="QuantAgent", layout="wide")
+st.set_page_config(
+    page_title="QuantAgent",
+    page_icon="icon.png",
+    layout="wide"
+)
 
 st.title("📊 QuantAgent - AI Financial Analyst")
 
